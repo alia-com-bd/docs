@@ -88,7 +88,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/alia-com-bd/docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,11 +101,15 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'YouTube',
+                href: 'https://youtube.com/alia_com_bd',
+              },
+              {
                 label: 'Facebook',
                 href: 'https://facebook.com/alia.com.bd',
               },
               {
-                label: 'Discord',
+                label: 'Instagram',
                 href: 'https://instagram.com/alia.com.bd',
               },
               {
@@ -115,11 +119,19 @@ const config = {
             ],
           },
           {
-            title: 'Docs',
+            title: 'Source',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentations',
+                to: '/docs/get-started',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/alia-com-bd/docs',
+              },
+              {
+                label: 'Showcase',
+                href: 'https://alia.com.bd/',
               },
             ],
           },
@@ -128,12 +140,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'About',
+                href: 'https://alia.com.bd/about-us',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Terms',
+                href: 'https://alia.com.bd/terms-conditions',
+              },
+              {
+                label: 'Privacy Policy',
+                href: 'https://alia.com.bd/privacy-policy',
               },
             ],
           },
