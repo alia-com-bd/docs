@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Alia Docs',
   tagline: 'Explore Documentation by Alia',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://docs.alia.com.bd',
@@ -98,6 +98,23 @@ const config = {
         style: 'dark',
         links: [
           {
+            title: 'Community',
+            items: [
+              {
+                label: 'Facebook',
+                href: 'https://facebook.com/alia.com.bd',
+              },
+              {
+                label: 'Discord',
+                href: 'https://instagram.com/alia.com.bd',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/alia_com_bd',
+              },
+            ],
+          },
+          {
             title: 'Docs',
             items: [
               {
@@ -106,23 +123,7 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
+        
           {
             title: 'More',
             items: [
